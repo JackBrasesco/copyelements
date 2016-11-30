@@ -9,5 +9,5 @@ var elementsList = $("#elements-list")
 var el = $("#element")
 var colorList = ["white","red","green","blue","yellow","goldenrod","magenta","cornsilk","lightpink","hotpink","coral"]
 colorList.forEach(function(color){
-  el.clone().appendTo(elementsList).color(color)
+  el.clone().appendTo(elementsList).fontColor(color)
 })
