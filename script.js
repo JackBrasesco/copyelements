@@ -7,10 +7,10 @@
 
 var elementsList = $("#elements-list")
 //
-//$(".element").clone().appendTo(elementsList)
-//$(".element").clone().appendTo(elementsList)
-//$(".element").clone().appendTo(elementsList)
-//$(".element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+//$("#element").clone().appendTo(elementsList)
 //$(".element").clone().appendTo(elementsList)
 //$(".element").clone().appendTo(elementsList)
 //$(".element").clone().appendTo(elementsList)
