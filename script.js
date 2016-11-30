@@ -6,15 +6,17 @@
 // 5. how do you repeat this multiple times, for multiple colors??? There is a nice data structure for this kind of thing.
 
 var elementsList = $("#elements-list")
-//
+
 $("#element").clone().appendTo(elementsList)
 $("#element").clone().appendTo(elementsList)
 $("#element").clone().appendTo(elementsList)
-//$("#element").clone().appendTo(elementsList)
-//$(".element").clone().appendTo(elementsList)
-//$(".element").clone().appendTo(elementsList)
-//$(".element").clone().appendTo(elementsList)
-//$(".element").clone().appendTo(elementsList)
-//$(".element").clone().appendTo(elementsList)
-//$(".element").clone().appendTo(elementsList)
-//$(".element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+$("#element").clone().appendTo(elementsList)
+
+var colorList = ["white","]
