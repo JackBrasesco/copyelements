@@ -7,18 +7,7 @@
 
 var elementsList = $("#elements-list")
 var el = $("#element")
-
-$("#element").clone().appendTo(elementsList)
-$("#element").clone().appendTo(elementsList)
-$("#element").clone().appendTo(elementsList)
-$("#element").clone().appendTo(elementsList)
-$("#element").clone().appendTo(elementsList)
-$("#element").clone().appendTo(elementsList)
-$("#element").clone().appendTo(elementsList)
-$("#element").clone().appendTo(elementsList)
-$("#element").clone().appendTo(elementsList)
-$("#element").clone().appendTo(elementsList)
 var colorList = ["white","red","green","blue","yellow","goldenrod","magenta","cornsilk","lightpink","hotpink","coral"]
 colorList.forEach(function(color){
-  
+  el.clone().appendTo(elementsList).color(color)
 })
