@@ -19,8 +19,8 @@ $("#element").clone().appendTo(elementsList)
 $("#element").clone().appendTo(elementsList)
 $("#element").clone().appendTo(elementsList)
 
-var colorList = ["white","red","green","blue","yellow","goldenrod","magenta]
+var colorList = ["white","red","green","blue","yellow","goldenrod","magenta","cornsilk","lightpink","hotpink","coral"]
 
-colorList.forEach(function(color) {
+colorList.forEach(function(color){
   
 })
