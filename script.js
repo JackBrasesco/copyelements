@@ -19,4 +19,7 @@ $("#element").clone().appendTo(elementsList)
 $("#element").clone().appendTo(elementsList)
 $("#element").clone().appendTo(elementsList)
 
-var colorList = ["white","]
+var colorList = ["white","red"]
+
+var a = "blah"
+
