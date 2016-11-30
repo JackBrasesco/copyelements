@@ -7,7 +7,7 @@
 
 var elementsList = $("#elements-list")
 var el = $("#element")
-var colorList = ["white","red","green","blue","yellow","goldenrod","magenta","cornsilk","lightpink","hotpink","coral"]
+var colorList = ["red","green","blue","yellow","goldenrod","magenta","cornsilk","lightpink","hotpink","coral"]
 colorList.forEach(function(color){
-  el.clone().fontcolor(color).appendTo(elementsList)
+  el.clone().css({"background-color": color}).appendTo(elementsList)
 })
